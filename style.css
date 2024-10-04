@@ -75,8 +75,8 @@ h2{
 .rating span:hover{
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
-   
 }
+
 
 button{
     width: 100%;
@@ -96,11 +96,16 @@ button:hover{
     text-align: center;
 }
 .your_rate{
-    background-color: gray;
-    border-radius: 0.5rem;
+    background-color:hsl(214, 13%, 25%);;
+    border-radius: 2rem;
     margin: 1rem auto;
+    padding: .7rem;
     color:orange;
     font-size: 14px;
     width: fit-content;
 
+}
+.checked{
+    background-color: hsl(25, 97%, 53%) !important;
+    color: white !important;
 }
